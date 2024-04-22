@@ -9,6 +9,7 @@ TagManager:
   - HitEffects
   - BeatScroller
   - Effect
+  - NoteMaker
   layers:
   - Default
   - TransparentFX
