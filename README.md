@@ -8,6 +8,7 @@ Resources:
 
 
 Disclaimer: I do not own nor claim to own the rights to any of the songs used in this game.
+
 Songs Used:
   - Imaginary Sky by Phantasma
   - Idol by Yoasobi (Cover by Eddie van der Meer)
