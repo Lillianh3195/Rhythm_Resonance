@@ -10,6 +10,10 @@ TagManager:
   - BeatScroller
   - Effect
   - NoteMaker
+  - Button
+  - LongNote
+  - 3DCamera
+  - Trigger
   layers:
   - Default
   - TransparentFX
@@ -17,10 +21,10 @@ TagManager:
   - Game Manager
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Post Processing
+  - Background
+  - 3D Objects
+  - Front UI
   - 
   - 
   - 
@@ -46,4 +50,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1023288715
     locked: 0

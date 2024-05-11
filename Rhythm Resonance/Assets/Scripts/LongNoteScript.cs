@@ -1,18 +1,25 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class LongNoteScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject longNote;
+    public KeyCode keyToPress;
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collider other) 
     {
-        
+        if (other.CompareTag("LongNote"))
+        { 
+            longNote = other.gameObject;
+            if (Input.GetKey(keyToPress))
+            {
+                longNote.SetActive(false);
+            }
+        }
     }
 }
